@@ -1,0 +1,8 @@
+= P2 Mirror
+
+P2 Mirror is a pom project that creates a mirror of a P2 Update site.
+
+Resources:
+
+* link:https://www.vogella.com/tutorials/EclipseTycho/article.html#mirroring-a-remote-update-site[Mirroring a remote update site]
+* link:https://www.eclipse.org/tycho/sitedocs-extras/tycho-p2-extras-plugin/mirror-mojo.html[tycho-p2-extras:mirror] (official documentation)

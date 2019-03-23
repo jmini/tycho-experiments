@@ -11,14 +11,17 @@ include::{github-readme}[tags=header]
 
 * link:{homepage}[Project home] (this page)
 * link:{projectpage}[GitHub project]
-//* link:{bintraypage}[Binaries on Bintray]
 * link:{issues}[Issue tracker]
 
 TIP: Do you want to improve this page? Please git-link:self[edit it on GitHub, edit].
 
 include::{github-readme}[tags=description]
 
-NOTE: TODO add a description
+// P2 Mirror:
+
+include::../p2-mirror/README.adoc[leveloffset=3]
+
+See the corresponding git-link:p2-mirror/[p2-mirror] folder on GitHub.
 
 include::{github-readme}[tags=contact-section]
 
