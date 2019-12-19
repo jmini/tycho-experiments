@@ -81,10 +81,10 @@
       <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
       <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
       <property name="aboutText" value="EIDE   Version: {1} Build id: {0}" />
-      <property name="appName" value="EIDE" />
+      <property name="osgi.instance.area.default" value="@user.home/workspace-eide" />
       <property name="org.eclipse.core.resources/encoding" value="UTF-8" />
       <property name="org.eclipse.ui/org.eclipse.ui.edit.text.encoding" value="UTF-8" />
-      <property name="osgi.instance.area.default" value="@user.home/workspace-eide" />
+      <property name="appName" value="EIDE" />
    </configurations>
 
    <preferencesInfo>

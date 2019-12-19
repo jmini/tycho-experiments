@@ -46,15 +46,11 @@
          </property>
          <property
                name="aboutImage"
-               value="eclipse_lg.png">
+               value="imgs/eide_lg.png">
          </property>
          <property
                name="aboutText"
-               value="%productBlurb">
-         </property>
-         <property
-               name="windowImages"
-               value="eclipse_logo16.png,eclipse_logo32.png,eclipse_logo48.png,eclipse_logo64.png,eclipse_logo128.png,eclipse_logo256.png">
+               value="This is an example application">
          </property>
          <property
                name="startupForegroundColor"
