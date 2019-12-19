@@ -9,7 +9,6 @@
 	</parent>
 
 	<artifactId>fr.jmini.eide.product</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
 
 	<packaging>eclipse-repository</packaging>
 	

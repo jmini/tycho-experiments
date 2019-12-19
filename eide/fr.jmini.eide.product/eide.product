@@ -4,9 +4,9 @@
 <product name="EIDE" uid="eide.product" id="fr.jmini.eide.product.product" application="org.eclipse.ui.ide.workbench" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
-      <image path="/imgs/eide_lg.png"/>
+      <image path="/fr.jmini.eide.product/imgs/eide_lg.png"/>
       <text>
-         %productBlurb
+         This is an example application
       </text>
    </aboutInfo>
 
@@ -25,18 +25,18 @@
       startupForegroundColor="FFFFFF" />
 
    <launcher name="eide">
-      <linux icon="/imgs/eide.xpm"/>
-      <macosx icon="/imgs/eide.icns"/>
+      <linux icon="/icons/eide.xpm"/>
+      <macosx icon="/icons/eide.icns"/>
       <solaris/>
       <win useIco="false">
          <bmp
-            winSmallHigh="/imgs/eide16x16x32.bmp"
-            winSmallLow="/imgs/eide16x16x8.bmp"
-            winMediumHigh="/imgs/eide32x32x32.bmp"
-            winMediumLow="/imgs/eide32x32x8.bmp"
-            winLargeHigh="/imgs/eide48x48x32.bmp"
-            winLargeLow="/imgs/eide48x48x8.bmp"
-            winExtraLargeHigh="/imgs/eide256x256x32.bmp"/>
+            winSmallHigh="/icons/eide16x16x32.bmp"
+            winSmallLow="/icons/eide16x16x8.bmp"
+            winMediumHigh="/icons/eide32x32x32.bmp"
+            winMediumLow="/icons/eide32x32x8.bmp"
+            winLargeHigh="/icons/eide48x48x32.bmp"
+            winLargeLow="/icons/eide48x48x8.bmp"
+            winExtraLargeHigh="/icons/eide256x256x32.bmp"/>
       </win>
    </launcher>
    <launcher name="EIDE">
