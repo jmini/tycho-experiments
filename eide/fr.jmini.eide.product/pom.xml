@@ -39,7 +39,7 @@
 							<id>eide.product</id>
 							<attachId>eide.product</attachId>
 							<archiveFileName>eide-${project.version}</archiveFileName>
-							<rootFolder>rentalE4</rootFolder>
+							<rootFolder>eide</rootFolder>
 						</product>
 					</products>
 				</configuration>

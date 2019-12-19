@@ -57,6 +57,7 @@
       <feature id="org.eclipse.ecf.filetransfer.feature"/>
       <feature id="org.eclipse.e4.rcp"/>
       <feature id="org.eclipse.jdt"/>
+      <feature id="org.eclipse.core.runtime.feature" installMode="root"/>
    </features>
 
    <configurations>
@@ -69,7 +70,7 @@
       <property name="appName" value="EIDE" />
       <property name="org.eclipse.core.resources/encoding" value="UTF-8" />
       <property name="org.eclipse.ui/org.eclipse.ui.edit.text.encoding" value="UTF-8" />
-      <property name="osgi.instance.area.default" value="@user.home/workspace-customide" />
+      <property name="osgi.instance.area.default" value="@user.home/workspace-eide" />
    </configurations>
 
    <preferencesInfo>
