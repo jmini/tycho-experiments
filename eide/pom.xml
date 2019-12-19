@@ -58,7 +58,6 @@
 	<modules>
 		<module>fr.jmini.eide.targetplatform</module>
 		<module>fr.jmini.eide.product</module>
-		<!--<module>fr.jmini.eide.feature</module>-->
 	</modules>
 
 
