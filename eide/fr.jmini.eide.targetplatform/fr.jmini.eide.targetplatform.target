@@ -1,16 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><?pde?><!-- generated with https://github.com/eclipse-cbi/targetplatform-dsl --><target name="EIDE" sequenceNumber="1555768968">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde?>
+<!-- generated with https://github.com/eclipse-cbi/targetplatform-dsl -->
+<target name="EIDE" sequenceNumber="1576748499">
   <locations>
-    <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-      <unit id="org.eclipse.platform.feature.group" version="4.11.0.v20190307-0500"/>
-      <unit id="org.eclipse.e4.rcp.feature.group" version="1.6.400.v20190305-0602"/>
-      <unit id="org.eclipse.emf.databinding.feature.group" version="1.6.0.v20180706-1146"/>
-      <unit id="org.eclipse.equinox.executable.feature.group" version="3.8.300.v20190213-1655"/>
-      <unit id="org.eclipse.equinox.sdk.feature.group" version="3.17.0.v20190305-2225"/>
-      <unit id="org.eclipse.jdt.feature.group" version="3.17.0.v20190307-0500"/>
-      <unit id="org.eclipse.core.runtime.feature.feature.group" version="1.2.400.v20190301-1641"/>
-      <unit id="org.eclipse.jdt.junit.runtime" version="3.4.900.v20181012-1045"/>
-      <unit id="org.eclipse.pde.junit.runtime" version="3.5.300.v20180827-1331"/>
-      <repository location="https://download.eclipse.org/releases/2019-03/"/>
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+      <unit id="org.eclipse.platform.feature.group" version="4.14.0.v20191210-0610"/>
+      <unit id="org.eclipse.e4.rcp.feature.group" version="4.14.0.v20191204-0601"/>
+      <unit id="org.eclipse.emf.databinding.feature.group" version="1.7.0.v20190323-1059"/>
+      <unit id="org.eclipse.equinox.executable.feature.group" version="3.8.600.v20191014-2025"/>
+      <unit id="org.eclipse.equinox.sdk.feature.group" version="3.20.0.v20191122-2104"/>
+      <unit id="org.eclipse.jdt.feature.group" version="3.18.200.v20191210-0610"/>
+      <unit id="org.eclipse.core.runtime.feature.feature.group" version="1.2.700.v20191122-2104"/>
+      <unit id="org.eclipse.jdt.junit.runtime" version="3.5.0.v20191115-1651"/>
+      <unit id="org.eclipse.pde.junit.runtime" version="3.5.600.v20191105-0947"/>
+      <repository location="https://download.eclipse.org/releases/2019-12/"/>
     </location>
   </locations>
 </target>
