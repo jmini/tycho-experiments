@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/some.feature_1.0.0.202103301352.jar" id="some.feature" version="1.0.0.202103301352"/>
+</site>
