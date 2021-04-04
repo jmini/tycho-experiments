@@ -1,0 +1,15 @@
+target "CUSTOM" with source requirements
+
+// Eclipse release update site:
+location "https://download.eclipse.org/releases/2021-03/" {
+	org.eclipse.platform.feature.group
+	org.eclipse.e4.rcp.feature.group
+	org.eclipse.emf.databinding.feature.group
+	org.eclipse.equinox.executable.feature.group
+	org.eclipse.equinox.sdk.feature.group
+	org.eclipse.core.runtime.feature.feature.group
+}
+
+location "https://raw.githubusercontent.com/jmini/tycho-experiments/master/customBree/fixture/some.site/" {
+	some.feature.feature.group
+}

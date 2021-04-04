@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde?>
+<!-- generated with https://github.com/eclipse-cbi/targetplatform-dsl -->
+<target name="CUSTOM" sequenceNumber="1617107480">
+  <locations>
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+      <unit id="org.eclipse.platform.feature.group" version="4.19.0.v20210303-1800"/>
+      <unit id="org.eclipse.e4.rcp.feature.group" version="4.19.0.v20210302-1107"/>
+      <unit id="org.eclipse.emf.databinding.feature.group" version="1.7.0.v20190323-1059"/>
+      <unit id="org.eclipse.equinox.executable.feature.group" version="3.8.1100.v20210209-1541"/>
+      <unit id="org.eclipse.equinox.sdk.feature.group" version="3.22.0.v20210227-0235"/>
+      <unit id="org.eclipse.core.runtime.feature.feature.group" version="1.2.1200.v20210226-1447"/>
+      <repository location="https://download.eclipse.org/releases/2021-03/"/>
+    </location>
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+      <unit id="some.feature.feature.group" version="1.0.0.202103301352"/>
+      <repository location="https://raw.githubusercontent.com/jmini/tycho-experiments/master/customBree/fixture/some.site/"/>
+    </location>
+  </locations>
+</target>

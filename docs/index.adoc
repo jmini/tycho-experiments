@@ -19,9 +19,15 @@ include::{github-readme}[tags=description]
 
 // P2 Mirror:
 
-include::../p2-mirror/README.adoc[leveloffset=3]
+include::../p2-mirror/README.adoc[leveloffset=2]
 
 See the corresponding git-link:p2-mirror/[p2-mirror] folder on GitHub.
+
+// customBree:
+
+include::../customBree/README.adoc[leveloffset=2]
+
+See the corresponding git-link:customBree/[customBree] folder on GitHub.
 
 include::{github-readme}[tags=contact-section]
 

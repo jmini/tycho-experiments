@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="product"
+         name="Java IDE"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="org.eclipse.ui.ide.workbench"
+            name="CUSTOM">
+         <property
+              name="introBrandingImage"
+              value="product:intro-eclipse.png">
+         </property>
+         <property
+               name="introTitle"
+               value="Welcome to the Eclipse IDE for Java Developers">
+         </property>
+         <property
+               name="introBrandingImageText"
+               value="Eclipse Project">
+         </property>
+         <property
+               name="applicationXMI"
+               value="org.eclipse.platform/LegacyIDE.e4xmi">
+         </property>
+         <property 
+               name="cssTheme"
+               value="org.eclipse.e4.ui.css.theme.e4_default">
+         </property>
+         <property
+               name="applicationCSSResources" 
+               value="platform:/plugin/org.eclipse.ui.themes/images/"> 
+         </property>
+         <property
+               name="buildIdLocation"
+               value="0,220">
+         </property>
+         <property
+               name="buildIdSize"
+               value="293,40">
+         </property>
+         <property
+               name="appName"
+               value="CUSTOM">
+         </property>
+         <property
+               name="aboutText"
+               value="This is an example application">
+         </property>
+         <property
+               name="startupForegroundColor"
+               value="FFFFFF">
+         </property>
+         <property
+               name="startupMessageRect"
+               value="7,225,320,20">
+         </property>
+         <property
+               name="startupProgressRect"
+               value="2,290,448,10">
+         </property>
+         <property
+               name="preferenceCustomization"
+               value="plugin_customization.ini">
+         </property>
+      </product>
+   </extension>
+</plugin>
