@@ -2,7 +2,6 @@
 
 include::{github-readme}[tags=vardef]
 
-:bintraypage: https://bintray.com/jmini/
 :projectpage: https://github.com/{gh-repo-owner}/{gh-repo-name}
 
 include::{github-readme}[tags=header]
