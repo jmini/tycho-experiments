@@ -5,10 +5,8 @@ eclipseMavenCentral {
 
         // specify this to add the native jars for this platform
         useNativesForRunningPlatform()
-    }
-}
 
-dependencies {
-    // use 'compileOnly' to not create a <dependencyManagement> section inside the POM published in localrepo.
-    compileOnly platform('fr.jmini.ecentral:eclipse-platform-dependencies:4.14')
+        // specify that all transitive dependencies should be from this release
+        constrainTransitivesToThisRelease()
+    }
 }

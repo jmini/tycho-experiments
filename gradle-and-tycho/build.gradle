@@ -3,7 +3,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.diffplug.gradle:goomph:3.29.1'
+        classpath 'com.diffplug.gradle:goomph:3.31.0'
     }
 }
 
