@@ -1,0 +1,14 @@
+eclipseMavenCentral {
+    release '4.14.0', {
+        // use 'compileOnly' for the eclipse-platform artifacts, as we do not want the dependency inside the POM published in localrepo.
+        compileOnly 'org.eclipse.core.runtime'
+
+        // specify this to add the native jars for this platform
+        useNativesForRunningPlatform()
+    }
+}
+
+dependencies {
+    // use 'compileOnly' to not create a <dependencyManagement> section inside the POM published in localrepo.
+    compileOnly platform('fr.jmini.ecentral:eclipse-platform-dependencies:4.14')
+}

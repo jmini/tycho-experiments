@@ -1,5 +1,9 @@
 :github-readme: ../README.adoc
 
+ifndef::root[]
+:root: ./
+endif::[]
+
 include::{github-readme}[tags=vardef]
 
 :projectpage: https://github.com/{gh-repo-owner}/{gh-repo-name}
@@ -27,6 +31,12 @@ See the corresponding git-link:p2-mirror/[p2-mirror] folder on GitHub.
 include::../customBree/README.adoc[leveloffset=2]
 
 See the corresponding git-link:customBree/[customBree] folder on GitHub.
+
+// gradle-and-tycho:
+
+include::../gradle-and-tycho/README.adoc[leveloffset=2]
+
+See the corresponding git-link:gradle-and-tycho/[gradle-and-tycho] folder on GitHub.
 
 include::{github-readme}[tags=contact-section]
 

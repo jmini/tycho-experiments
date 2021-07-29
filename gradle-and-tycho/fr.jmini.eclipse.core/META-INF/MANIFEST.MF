@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Core
+Bundle-SymbolicName: fr.jmini.eclipse.core
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: fr.jmini.eclipse.core.Activator
+Require-Bundle: org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: fr.jmini.eclipse.core
+Bundle-ActivationPolicy: lazy
+Export-Package: fr.jmini.eclipse.core

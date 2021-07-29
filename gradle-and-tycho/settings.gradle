@@ -1,0 +1,4 @@
+rootProject.name = 'gradle-and-tycho'
+
+include 'fr.jmini.eclipse.core'
+include 'fr.jmini.eclipse.ui'

@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Ui
+Bundle-SymbolicName: fr.jmini.eclipse.ui;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: fr.jmini.eclipse.ui.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ fr.jmini.eclipse.core
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: fr.jmini.eclipse.ui
+Bundle-ActivationPolicy: lazy

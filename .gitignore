@@ -1,6 +1,7 @@
 target/
 build/
 bin/
+.gradle
 
 # Compiled class file
 *.class
@@ -25,6 +26,9 @@ bin/
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# gradle wrapper
+!**/gradle/wrapper/gradle-wrapper.jar
 
 # publish the 'some.site' P2 update site:
 !customBree/fixture/some.site/*.jar

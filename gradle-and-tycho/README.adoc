@@ -1,0 +1,45 @@
+ifndef::root[]
+:root: ../docs/
+endif::[]
+
+= Gradle and Tycho
+
+This experiment is about consuming in a Maven Tycho build some bundles produced by Gradle.
+
+The goal is to obtain an update site containing a feature to be able to install the plugin into an existing Eclipse installation.
+
+== The eclipse plugins
+
+Two Eclipse plugins are built using gradle:
+
+* `fr.jmini.eclipse.core`: a plugin to hold business logic (no UI code)
+* `fr.jmini.eclipse.ui`: a plugin that makes a contribution to the UI and that requires the core one.
+
+The projects were created with Eclipse Wizard "New Project" > "Plugin project". For the UI plugin the template "Hello, World Command" was used.
+
+image::{root}imgs/new-plugin-project-template.png[Eclipse 'New Plug-in Project' dialog,530]
+
+The plugin adds a simple command that opens a message box.
+
+image::{root}imgs/sample-command.png[Sample command Eclipse plug-in,633]
+
+The message inside the message box is defined in the `fr.jmini.eclipse.core` plugin (in a real project those plugins should contains real business logic).
+
+image::{root}imgs/message-box.png[Message box,721]
+
+== Technical setup
+
+Gradle is used to build the two plugins (`fr.jmini.eclipse.core` and `fr.jmini.eclipse.ui`).
+The command `./gradlew publish` will publish them in a local maven repository located under `build/repo/` at the root of the `gradle-and-tycho` project.
+
+The maven tycho build is configured using the link:https://wiki.eclipse.org/Tycho/How_Tos/Dependency_on_pom-first_artifacts[the `<pomDependencies>consider</pomDependencies>` feature] to pick up the jars published by gradle in the first step.
+
+Then it builds following two modules:
+
+* `feature.fr.jmini.eclipse`
+* `updatesite.fr.jmini.eclipse`
+
+Tycho can be executed with `mvn package`.
+It requires Java 11 to run (prerequisite for tycho `2.x.x`).
+
+The result of the build is an update-site folder located here: `updatesite.fr.jmini.eclipse/target/site/`.

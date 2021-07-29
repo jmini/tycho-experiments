@@ -11,7 +11,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <asciidoctor.maven.plugin.version>2.2.0</asciidoctor.maven.plugin.version>
         <asciidoctorj.version>2.5.1</asciidoctorj.version>
-        <asciidoctorj.gh-edit.version>3.0.0</asciidoctorj.gh-edit.version>
+        <asciidoctorj.gh-edit.version>3.2.1</asciidoctorj.gh-edit.version>
         <jruby.version>9.2.19.0</jruby.version>
         <adoc.output>${project.build.directory}/generated-docs</adoc.output>
         <github.global.server>github</github.global.server> <!-- this should match the sever id in your settings.xml -->
