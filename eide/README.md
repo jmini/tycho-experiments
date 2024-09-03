@@ -1,4 +1,4 @@
-# eide
+# EIDE (custom build for Eclipse IDE)
 
 Build:
 
@@ -10,3 +10,9 @@ Tested with:
 
 * **Java**: openjdk version "21.0.3" 2024-04-16 LTS
 * **Maven**: Apache Maven 3.8.4
+
+
+## Edit: 2024-09-03
+
+SonarLint was added to the eide product, in order to reproduce the issue discussed here:
+https://community.sonarsource.com/t/cannot-run-program-sloop-jre-bin-java-caused-by-permission-denied/124054

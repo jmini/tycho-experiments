@@ -66,6 +66,7 @@
       <feature id="org.eclipse.wildwebdeveloper.xml.feature" installMode="root"/>
       <feature id="org.eclipse.tips.feature" installMode="root"/>
       <feature id="org.eclipse.tm.terminal.feature" installMode="root"/>
+      <feature id="org.sonarlint.eclipse.feature" installMode="root"/>
    </features>
 
    <configurations>

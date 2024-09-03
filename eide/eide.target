@@ -29,5 +29,9 @@
       <unit id="org.eclipse.jgit.http.apache.feature.group" version="6.10.0.202406032230-r"/>
       <repository location="https://download.eclipse.org/releases/2024-06/"/>
     </location>
+    <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
+      <unit id="org.sonarlint.eclipse.feature.feature.group" version="10.5.0.82112"/>
+      <repository location="https://eclipse-uc.sonarlint.org/10.5.0.82112"/>
+    </location>
   </locations>
 </target>
