@@ -30,8 +30,8 @@
       <repository location="https://download.eclipse.org/releases/2024-06/"/>
     </location>
     <location includeMode="planner" includeAllPlatforms="false" includeSource="true" includeConfigurePhase="false" type="InstallableUnit">
-      <unit id="org.sonarlint.eclipse.feature.feature.group" version="10.5.0.82112"/>
-      <repository location="https://eclipse-uc.sonarlint.org/10.5.0.82112"/>
+      <unit id="org.sonarlint.eclipse.feature.feature.group" version="10.8.0.82289"/>
+      <repository location="https://eclipse-uc.sonarlint.org/10.8.0.82289"/>
     </location>
   </locations>
 </target>
